@@ -1,0 +1,51 @@
+{
+  "name": "with-router-ai",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "deploy": "npx expo export -p web && npx eas-cli@latest deploy",
+    "postinstall": "npx patch-package"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^1.3.22",
+    "@ai-sdk/react": "^1.2.12",
+    "@bacons/apple-colors": "^0.0.8",
+    "@react-native-community/slider": "4.5.6",
+    "@stardazed/streams-text-encoding": "^1.0.2",
+    "@ungap/structured-clone": "^1.3.0",
+    "ai": "^4.3.16",
+    "clsx": "^2.1.1",
+    "expo": "^53.0.4",
+    "expo-blur": "~14.1.5",
+    "expo-constants": "~17.1.4",
+    "expo-image-picker": "~16.1.4",
+    "expo-linking": "~7.1.4",
+    "expo-router": "~5.1.0",
+    "expo-sharing": "~13.1.5",
+    "expo-splash-screen": "~0.30.7",
+    "expo-status-bar": "~2.2.3",
+    "nativewind": "^4.0.1",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-native": "0.79.3",
+    "react-native-markdown-renderer": "^3.2.8",
+    "react-native-reanimated": "~3.17.4",
+    "react-native-safe-area-context": "5.4.0",
+    "react-native-screens": "~4.11.1",
+    "react-native-view-shot": "4.0.3",
+    "react-native-web": "^0.20.0",
+    "react-native-webview": "13.13.5",
+    "react-server-dom-webpack": "19.0.0",
+    "react-syntax-highlighter": "^15.6.1",
+    "tailwind-merge": "^3.3.1",
+    "tailwindcss": "^3.4.0",
+    "zod": "^3.25.67"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@types/react": "~19.0.10",
+    "expo-atlas": "^0.4.0",
+    "typescript": "~5.8.3"
+  }
+}

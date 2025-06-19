@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "userInterfaceStyle": "automatic",
+    "orientation": "default",
+    "web": {
+      "output": "server"
+    },
+    "experiments": {
+      "reactServerFunctions": true
+    },
+    "plugins": ["expo-router"]
+  }
+}
