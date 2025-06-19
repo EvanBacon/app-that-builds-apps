@@ -301,7 +301,7 @@ export function Chat() {
 
                       return (
                         <SyntaxDom
-                          key={index}
+                          key={part.toolInvocation.toolCallId}
                           dom={{
                             style: {
                               backgroundColor: "#1E1E1E",
